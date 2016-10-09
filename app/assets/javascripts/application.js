@@ -15,14 +15,3 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
-
-<textarea id="some-textarea" class='wysihtml5' placeholder="Enter text ..."></textarea>
-
-<script type="text/javascripts">
-  $(document).ready(function(){
-    $('.wysihtml5').each(function(i,elem){
-      $(elem).wysihtml5();
-    });
-
-  })
-</script>
